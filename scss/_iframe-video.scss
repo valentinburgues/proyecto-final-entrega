@@ -1,0 +1,23 @@
+.contenedor-video{
+  margin-top: 150px;
+}
+
+section h4 {
+    color: $color-fuente;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  section iframe {
+    display: flex;
+    justify-content: center;
+    margin-top: map-get($size, 2 );
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+  }
+  section iframe {
+    border-radius: 20px;
+    border-style: none;
+  }

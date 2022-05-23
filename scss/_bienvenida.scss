@@ -1,0 +1,20 @@
+
+.bienvenida{
+    font-size: map-get($size, 1 );
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+.tituloh4{
+    color: $color-fuente;
+    font-size: map-get($size, 1 );
+    text-align: center;
+    margin-bottom: map-get($size, 1 );
+}
+.como-comprar{
+    color: $color-fuente;
+    text-align: center;
+    list-style: none;
+    
+}
+

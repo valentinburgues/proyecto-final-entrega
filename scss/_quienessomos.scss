@@ -1,0 +1,73 @@
+section .nosotros{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+.padre{
+    width: 100%;
+    display: flex;
+    
+    
+    
+}
+.gente1 .img-gente1{
+    width: 700px;
+    height: 500px;
+
+}
+.gente1 .img-gente2{
+    width: 0px;
+    height: 0px;
+
+}
+.gente1 .img-gente3{
+    width: 0px;
+    height: 0px;
+    }
+.gente2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gente2 p{
+    color: $color-fuente;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
+   
+}
+@media (max-width: 1030px){
+    .gente1 .img-gente1{
+        width: 200px;
+    height: 125px;
+    
+    }
+    .gente1 .img-gente2 {
+        width: 200px;
+        height: 125px;
+    margin-top: 12px;
+
+    }
+    .gente2 p{
+        font-size: 15px;
+        
+    }
+}
+@media (max-width: 554px){
+    .gente1 .img-gente3{
+        width: 200px;
+        height: 125px;;
+        margin-top: 12px;
+    }
+
+}
+
+
+.pregunta{
+    color: $color-fuente;
+    margin-left: 50%;
+    font-size: 20px;
+    list-style: inside;
+}
